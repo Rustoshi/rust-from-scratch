@@ -41,7 +41,7 @@ fn main() {
     }
 
     impl Programmer {
-        fn new(&self, name: String, language: String) -> Self {
+        fn new(name: String, language: String) -> Self {
             return Self {
                 name,
                 language
