@@ -34,7 +34,4 @@ fn main() {
     document.read_to_string(&mut contents).expect("Error reading contents");
 
     println!("Contents of the documents below \n {}", contents);
-
-    use std::net::IpAddr;
-
 }
